@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #116D6E;
+}
+.inst{
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  margin: 4.5%;
+  font-size: 300%;
+}
+.box{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 380px;
+  flex-wrap: wrap;
+}
+.box1{
+  background-color: red;
+}
+
+.box2{
+  background-color: yellow;
+}
+
+.box3{
+  background-color: blue;
+}
+
+.box4{
+  background-color: green;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.wrongpress{
+  opacity: 0.8;
+  background-color: red;
+}
+.bx{
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20%;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+footer {
+  margin-bottom: 15px;
+  font-family: 'Indie Flower', cursive;
+  color: #E8F6EF;
+  text-align: center;
+}
